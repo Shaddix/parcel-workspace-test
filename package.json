@@ -1,0 +1,26 @@
+{
+  "private": true,
+  "workspaces": [
+    "@lmt/*",
+    "apps/web"
+  ],
+  "nohoist": [
+    "**/electron",
+    "**/electron-*",
+    "**/electron/**",
+    "**/electron-*/**",
+    "**/electron-builder",
+    "**/electron-builder/**",
+    "**/electron-store",
+    "**/electron-store/**",
+    "**/electron-devtools-installer",
+    "**/electron-devtools-installer/**",
+    "**/node-sass",
+    "**/node-sass/**",
+    "**/jest",
+    "**/jest/**"
+  ],
+  "scripts": {
+
+  }
+}
