@@ -1,6 +1,7 @@
 # Project exclude paths
 /node_modules/
 /apps/web/.parcel-cache
+/apps/web/.cache
 **/dist/
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -75,3 +76,4 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 /@lmt/shared/dist/
 /apps/web/dist/
+/apps/web/.cache/9c/71e7411ce5216bd83bcb761b875c2d.json

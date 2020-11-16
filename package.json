@@ -19,8 +19,6 @@
     "**/node-sass/**",
     "**/jest",
     "**/jest/**"
-  ],
-  "scripts": {
+  ]
 
-  }
 }

@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { TestComponent } from "@lmt/shared/TestComponent";
+import { cnt } from "@lmt/shared/constants";
+import { TestComponent } from "@lmt/shared/components/TestComponent";
 
 function App() {
   return (
@@ -17,9 +18,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn Reaasdasasdas
-        </a>
+          Learn Rasd8768 {cnt} ee
           <TestComponent />
+        </a>
       </header>
     </div>
   );
